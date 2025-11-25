@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell.exe:*)",
+      "Bash(bash.exe -c \"cd \"\"D:\\Modern Resume Canvas\\temp-next-app\"\" && mv * ..\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
