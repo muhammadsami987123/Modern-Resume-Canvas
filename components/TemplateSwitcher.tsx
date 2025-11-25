@@ -6,11 +6,9 @@ import { useResumeStore } from '@/store/resumeStore';
 import { templates } from '@/utils/templates';
 
 export default function TemplateSwitcher() {
-    const { activeTemplate, setTemplate, updateTheme } = useResumeStore((state) => ({
-        activeTemplate: state.activeTemplate,
-        setTemplate: state.setTemplate,
-        updateTheme: state.updateTheme,
-    }));
+    const activeTemplate = useResumeStore((state) => state.activeTemplate);
+    const setTemplate = useResumeStore((state) => state.setTemplate);
+    const updateTheme = useResumeStore((state) => state.updateTheme);
 
     const handleSelect = (templateId: string) => {
         const template = templates.find((item) => item.id === templateId);

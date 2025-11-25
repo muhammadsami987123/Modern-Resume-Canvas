@@ -1,1 +1,13 @@
 node_modules
+.next
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.specify
+.specify.log
+.specify.log.gz
+.specify.log.gz.part
+.specify.log.gz.part.1
+.specify.log.gz.part.2

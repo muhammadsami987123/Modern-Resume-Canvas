@@ -272,15 +272,21 @@ var _s = __turbopack_context__.k.signature();
 ;
 function SectionCard({ section, dragHandleProps }) {
     _s();
-    const { theme, updateSection, deleteSection, setSelectedSection, selectedSection } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
-        "SectionCard.useResumeStore": (state)=>({
-                theme: state.theme,
-                updateSection: state.updateSection,
-                deleteSection: state.deleteSection,
-                setSelectedSection: state.setSelectedSection,
-                selectedSection: state.selectedSection
-            })
-    }["SectionCard.useResumeStore"]);
+    const theme = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
+        "SectionCard.useResumeStore[theme]": (state)=>state.theme
+    }["SectionCard.useResumeStore[theme]"]);
+    const updateSection = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
+        "SectionCard.useResumeStore[updateSection]": (state)=>state.updateSection
+    }["SectionCard.useResumeStore[updateSection]"]);
+    const deleteSection = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
+        "SectionCard.useResumeStore[deleteSection]": (state)=>state.deleteSection
+    }["SectionCard.useResumeStore[deleteSection]"]);
+    const setSelectedSection = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
+        "SectionCard.useResumeStore[setSelectedSection]": (state)=>state.setSelectedSection
+    }["SectionCard.useResumeStore[setSelectedSection]"]);
+    const selectedSection = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
+        "SectionCard.useResumeStore[selectedSection]": (state)=>state.selectedSection
+    }["SectionCard.useResumeStore[selectedSection]"]);
     const [isEditingTitle, setIsEditingTitle] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [editedTitle, setEditedTitle] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(section.title);
     const [editedContent, setEditedContent] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(section.content || '');
@@ -340,14 +346,14 @@ function SectionCard({ section, dragHandleProps }) {
                         size: 16
                     }, void 0, false, {
                         fileName: "[project]/components/SectionCard.tsx",
-                        lineNumber: 77,
+                        lineNumber: 73,
                         columnNumber: 17
                     }, this),
                     "Drag"
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/SectionCard.tsx",
-                lineNumber: 73,
+                lineNumber: 69,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -358,12 +364,12 @@ function SectionCard({ section, dragHandleProps }) {
                     size: 16
                 }, void 0, false, {
                     fileName: "[project]/components/SectionCard.tsx",
-                    lineNumber: 86,
+                    lineNumber: 82,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/SectionCard.tsx",
-                lineNumber: 81,
+                lineNumber: 77,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -386,7 +392,7 @@ function SectionCard({ section, dragHandleProps }) {
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/SectionCard.tsx",
-                        lineNumber: 100,
+                        lineNumber: 96,
                         columnNumber: 21
                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                         className: "mb-4 cursor-text font-bold text-gray-900 transition-opacity hover:opacity-80",
@@ -401,7 +407,7 @@ function SectionCard({ section, dragHandleProps }) {
                         children: section.title
                     }, void 0, false, {
                         fileName: "[project]/components/SectionCard.tsx",
-                        lineNumber: 109,
+                        lineNumber: 105,
                         columnNumber: 21
                     }, this),
                     (section.type === 'about' || section.type === 'contact' || section.type === 'custom') && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
@@ -413,7 +419,7 @@ function SectionCard({ section, dragHandleProps }) {
                         style: bodyStyle
                     }, void 0, false, {
                         fileName: "[project]/components/SectionCard.tsx",
-                        lineNumber: 122,
+                        lineNumber: 118,
                         columnNumber: 21
                     }, this),
                     section.type === 'skills' && Array.isArray(section.items) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -427,12 +433,12 @@ function SectionCard({ section, dragHandleProps }) {
                                 children: skill
                             }, skill, false, {
                                 fileName: "[project]/components/SectionCard.tsx",
-                                lineNumber: 135,
+                                lineNumber: 131,
                                 columnNumber: 29
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/SectionCard.tsx",
-                        lineNumber: 133,
+                        lineNumber: 129,
                         columnNumber: 21
                     }, this),
                     section.type === 'experience' && Array.isArray(section.items) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -451,7 +457,7 @@ function SectionCard({ section, dragHandleProps }) {
                                         children: item.role
                                     }, void 0, false, {
                                         fileName: "[project]/components/SectionCard.tsx",
-                                        lineNumber: 153,
+                                        lineNumber: 149,
                                         columnNumber: 33
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -466,7 +472,7 @@ function SectionCard({ section, dragHandleProps }) {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/SectionCard.tsx",
-                                        lineNumber: 156,
+                                        lineNumber: 152,
                                         columnNumber: 33
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -475,18 +481,18 @@ function SectionCard({ section, dragHandleProps }) {
                                         children: item.description
                                     }, void 0, false, {
                                         fileName: "[project]/components/SectionCard.tsx",
-                                        lineNumber: 159,
+                                        lineNumber: 155,
                                         columnNumber: 33
                                     }, this)
                                 ]
                             }, `${item.company}-${item.role}`, true, {
                                 fileName: "[project]/components/SectionCard.tsx",
-                                lineNumber: 152,
+                                lineNumber: 148,
                                 columnNumber: 29
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/SectionCard.tsx",
-                        lineNumber: 150,
+                        lineNumber: 146,
                         columnNumber: 21
                     }, this),
                     section.type === 'projects' && Array.isArray(section.items) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -502,7 +508,7 @@ function SectionCard({ section, dragHandleProps }) {
                                         children: item.title
                                     }, void 0, false, {
                                         fileName: "[project]/components/SectionCard.tsx",
-                                        lineNumber: 171,
+                                        lineNumber: 167,
                                         columnNumber: 33
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -511,7 +517,7 @@ function SectionCard({ section, dragHandleProps }) {
                                         children: item.description
                                     }, void 0, false, {
                                         fileName: "[project]/components/SectionCard.tsx",
-                                        lineNumber: 174,
+                                        lineNumber: 170,
                                         columnNumber: 33
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -525,23 +531,23 @@ function SectionCard({ section, dragHandleProps }) {
                                                 children: tech
                                             }, tech, false, {
                                                 fileName: "[project]/components/SectionCard.tsx",
-                                                lineNumber: 179,
+                                                lineNumber: 175,
                                                 columnNumber: 41
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/components/SectionCard.tsx",
-                                        lineNumber: 177,
+                                        lineNumber: 173,
                                         columnNumber: 33
                                     }, this)
                                 ]
                             }, item.title, true, {
                                 fileName: "[project]/components/SectionCard.tsx",
-                                lineNumber: 170,
+                                lineNumber: 166,
                                 columnNumber: 29
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/SectionCard.tsx",
-                        lineNumber: 168,
+                        lineNumber: 164,
                         columnNumber: 21
                     }, this),
                     section.type === 'education' && Array.isArray(section.items) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -557,7 +563,7 @@ function SectionCard({ section, dragHandleProps }) {
                                         children: item.degree
                                     }, void 0, false, {
                                         fileName: "[project]/components/SectionCard.tsx",
-                                        lineNumber: 200,
+                                        lineNumber: 196,
                                         columnNumber: 33
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -572,7 +578,7 @@ function SectionCard({ section, dragHandleProps }) {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/SectionCard.tsx",
-                                        lineNumber: 203,
+                                        lineNumber: 199,
                                         columnNumber: 33
                                     }, this),
                                     item.description && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -581,35 +587,39 @@ function SectionCard({ section, dragHandleProps }) {
                                         children: item.description
                                     }, void 0, false, {
                                         fileName: "[project]/components/SectionCard.tsx",
-                                        lineNumber: 207,
+                                        lineNumber: 203,
                                         columnNumber: 37
                                     }, this)
                                 ]
                             }, item.degree, true, {
                                 fileName: "[project]/components/SectionCard.tsx",
-                                lineNumber: 199,
+                                lineNumber: 195,
                                 columnNumber: 29
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/SectionCard.tsx",
-                        lineNumber: 197,
+                        lineNumber: 193,
                         columnNumber: 21
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/SectionCard.tsx",
-                lineNumber: 89,
+                lineNumber: 85,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/SectionCard.tsx",
-        lineNumber: 65,
+        lineNumber: 61,
         columnNumber: 9
     }, this);
 }
-_s(SectionCard, "vd5uF51AxK4jprRb13Vbcl80NgY=", false, function() {
+_s(SectionCard, "klYMILXPaqxbZP+9irxm6pRgPTk=", false, function() {
     return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"],
+        __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"],
+        __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"],
+        __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"],
         __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"]
     ];
 });
@@ -685,15 +695,21 @@ const rebuildSections = (columns)=>{
 };
 function Canvas() {
     _s();
-    const { layout, theme, sections, activeTemplate, reorderSections } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
-        "Canvas.useResumeStore": (state)=>({
-                layout: state.layout,
-                theme: state.theme,
-                sections: state.sections,
-                activeTemplate: state.activeTemplate,
-                reorderSections: state.reorderSections
-            })
-    }["Canvas.useResumeStore"]);
+    const layout = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
+        "Canvas.useResumeStore[layout]": (state)=>state.layout
+    }["Canvas.useResumeStore[layout]"]);
+    const theme = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
+        "Canvas.useResumeStore[theme]": (state)=>state.theme
+    }["Canvas.useResumeStore[theme]"]);
+    const sections = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
+        "Canvas.useResumeStore[sections]": (state)=>state.sections
+    }["Canvas.useResumeStore[sections]"]);
+    const activeTemplate = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
+        "Canvas.useResumeStore[activeTemplate]": (state)=>state.activeTemplate
+    }["Canvas.useResumeStore[activeTemplate]"]);
+    const reorderSections = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
+        "Canvas.useResumeStore[reorderSections]": (state)=>state.reorderSections
+    }["Canvas.useResumeStore[reorderSections]"]);
     const columns = getColumnsFromSections(sections);
     const effectiveColumns = layout === 'two-column' ? {
         left: columns.left,
@@ -772,29 +788,29 @@ function Canvas() {
                                             dragHandleProps: dragHandleProps
                                         }, void 0, false, {
                                             fileName: "[project]/components/Canvas.tsx",
-                                            lineNumber: 139,
+                                            lineNumber: 137,
                                             columnNumber: 37
                                         }, this)
                                 }, section.id, false, {
                                     fileName: "[project]/components/Canvas.tsx",
-                                    lineNumber: 137,
+                                    lineNumber: 135,
                                     columnNumber: 29
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/Canvas.tsx",
-                            lineNumber: 135,
+                            lineNumber: 133,
                             columnNumber: 21
                         }, this),
                         provided.placeholder
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Canvas.tsx",
-                    lineNumber: 129,
+                    lineNumber: 127,
                     columnNumber: 17
                 }, this)
         }, void 0, false, {
             fileName: "[project]/components/Canvas.tsx",
-            lineNumber: 127,
+            lineNumber: 125,
             columnNumber: 9
         }, this);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$framer$2d$motion$40$12$2e$23$2e$24_reac_f10c133739128b9444d932a552777ca7$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -815,6 +831,9 @@ function Canvas() {
             color: theme.text,
             fontFamily: theme.font
         },
+        "data-testid": "resume-canvas",
+        "data-layout": layout,
+        "data-template": activeTemplate,
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f40$hello$2d$pangea$2b$dnd$40$18$2e$0$2e$1_$40$t_dc373ff163c4aa80e8f8c4888101d4f5$2f$node_modules$2f40$hello$2d$pangea$2f$dnd$2f$dist$2f$dnd$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DragDropContext"], {
             onDragEnd: handleDragEnd,
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -840,22 +859,26 @@ function Canvas() {
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Canvas.tsx",
-                lineNumber: 164,
+                lineNumber: 165,
                 columnNumber: 17
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/Canvas.tsx",
-            lineNumber: 163,
+            lineNumber: 164,
             columnNumber: 13
         }, this)
     }, activeTemplate, false, {
         fileName: "[project]/components/Canvas.tsx",
-        lineNumber: 151,
+        lineNumber: 149,
         columnNumber: 9
     }, this);
 }
-_s(Canvas, "jNsleAJUeC3wVFB4UYd/n45ssRQ=", false, function() {
+_s(Canvas, "ddmNFhf5pnLMDjdcTcq03bHfAtI=", false, function() {
     return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"],
+        __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"],
+        __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"],
+        __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"],
         __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"]
     ];
 });
@@ -1127,6 +1150,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lu
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$554$2e$0_react$40$19$2e$2$2e$0$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$text$2d$align$2d$justify$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__AlignJustify$3e$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/lucide-react@0.554.0_react@19.2.0/node_modules/lucide-react/dist/esm/icons/text-align-justify.js [app-client] (ecmascript) <export default as AlignJustify>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$554$2e$0_react$40$19$2e$2$2e$0$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$text$2d$align$2d$start$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__AlignLeft$3e$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/lucide-react@0.554.0_react@19.2.0/node_modules/lucide-react/dist/esm/icons/text-align-start.js [app-client] (ecmascript) <export default as AlignLeft>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$554$2e$0_react$40$19$2e$2$2e$0$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$text$2d$align$2d$end$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__AlignRight$3e$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/lucide-react@0.554.0_react@19.2.0/node_modules/lucide-react/dist/esm/icons/text-align-end.js [app-client] (ecmascript) <export default as AlignRight>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/next@16.0.4_@babel+core@7.2_c7b1faf0a552f6db76217c833dfd7538/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/ui/button.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/ui/input.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$label$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/ui/label.tsx [app-client] (ecmascript)");
@@ -1137,6 +1161,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__
 ;
 var _s = __turbopack_context__.k.signature();
 'use client';
+;
 ;
 ;
 ;
@@ -1188,23 +1213,33 @@ const textEditableTypes = [
 ];
 function EditorPanel() {
     _s();
-    const { selectedSectionId, section, updateSection, updateSectionStyle } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
-        "EditorPanel.useResumeStore": (state)=>({
-                selectedSectionId: state.selectedSection,
-                section: state.sections.find({
-                    "EditorPanel.useResumeStore": (item)=>item.id === state.selectedSection
-                }["EditorPanel.useResumeStore"]),
-                updateSection: state.updateSection,
-                updateSectionStyle: state.updateSectionStyle
-            })
-    }["EditorPanel.useResumeStore"]);
+    const selectedSectionId = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
+        "EditorPanel.useResumeStore[selectedSectionId]": (state)=>state.selectedSection
+    }["EditorPanel.useResumeStore[selectedSectionId]"]);
+    const sections = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
+        "EditorPanel.useResumeStore[sections]": (state)=>state.sections
+    }["EditorPanel.useResumeStore[sections]"]);
+    const updateSection = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
+        "EditorPanel.useResumeStore[updateSection]": (state)=>state.updateSection
+    }["EditorPanel.useResumeStore[updateSection]"]);
+    const updateSectionStyle = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
+        "EditorPanel.useResumeStore[updateSectionStyle]": (state)=>state.updateSectionStyle
+    }["EditorPanel.useResumeStore[updateSectionStyle]"]);
+    const section = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMemo"])({
+        "EditorPanel.useMemo[section]": ()=>sections.find({
+                "EditorPanel.useMemo[section]": (item)=>item.id === selectedSectionId
+            }["EditorPanel.useMemo[section]"])
+    }["EditorPanel.useMemo[section]"], [
+        sections,
+        selectedSectionId
+    ]);
     if (!selectedSectionId || !section) {
         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "rounded-xl border border-dashed border-gray-300 bg-white/60 p-6 text-sm text-gray-500",
             children: "Select a section on the canvas to edit typography, alignment, and column placement."
         }, void 0, false, {
             fileName: "[project]/components/EditorPanel.tsx",
-            lineNumber: 38,
+            lineNumber: 42,
             columnNumber: 13
         }, this);
     }
@@ -1218,7 +1253,7 @@ function EditorPanel() {
                         children: "Section Title"
                     }, void 0, false, {
                         fileName: "[project]/components/EditorPanel.tsx",
-                        lineNumber: 49,
+                        lineNumber: 53,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
@@ -1229,13 +1264,13 @@ function EditorPanel() {
                             })
                     }, void 0, false, {
                         fileName: "[project]/components/EditorPanel.tsx",
-                        lineNumber: 50,
+                        lineNumber: 54,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/EditorPanel.tsx",
-                lineNumber: 48,
+                lineNumber: 52,
                 columnNumber: 13
             }, this),
             textEditableTypes.includes(section.type) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1244,7 +1279,7 @@ function EditorPanel() {
                         children: "Content"
                     }, void 0, false, {
                         fileName: "[project]/components/EditorPanel.tsx",
-                        lineNumber: 59,
+                        lineNumber: 63,
                         columnNumber: 21
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$textarea$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Textarea"], {
@@ -1256,13 +1291,13 @@ function EditorPanel() {
                             })
                     }, void 0, false, {
                         fileName: "[project]/components/EditorPanel.tsx",
-                        lineNumber: 60,
+                        lineNumber: 64,
                         columnNumber: 21
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/EditorPanel.tsx",
-                lineNumber: 58,
+                lineNumber: 62,
                 columnNumber: 17
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1274,7 +1309,7 @@ function EditorPanel() {
                                 children: "Font Size"
                             }, void 0, false, {
                                 fileName: "[project]/components/EditorPanel.tsx",
-                                lineNumber: 71,
+                                lineNumber: 75,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$slider$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Slider"], {
@@ -1287,13 +1322,13 @@ function EditorPanel() {
                                     })
                             }, void 0, false, {
                                 fileName: "[project]/components/EditorPanel.tsx",
-                                lineNumber: 72,
+                                lineNumber: 76,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/EditorPanel.tsx",
-                        lineNumber: 70,
+                        lineNumber: 74,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1302,7 +1337,7 @@ function EditorPanel() {
                                 children: "Line Height"
                             }, void 0, false, {
                                 fileName: "[project]/components/EditorPanel.tsx",
-                                lineNumber: 81,
+                                lineNumber: 85,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$slider$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Slider"], {
@@ -1316,19 +1351,19 @@ function EditorPanel() {
                                     })
                             }, void 0, false, {
                                 fileName: "[project]/components/EditorPanel.tsx",
-                                lineNumber: 82,
+                                lineNumber: 86,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/EditorPanel.tsx",
-                        lineNumber: 80,
+                        lineNumber: 84,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/EditorPanel.tsx",
-                lineNumber: 69,
+                lineNumber: 73,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1337,7 +1372,7 @@ function EditorPanel() {
                         children: "Alignment"
                     }, void 0, false, {
                         fileName: "[project]/components/EditorPanel.tsx",
-                        lineNumber: 94,
+                        lineNumber: 98,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1352,23 +1387,23 @@ function EditorPanel() {
                                     className: "h-4 w-4"
                                 }, void 0, false, {
                                     fileName: "[project]/components/EditorPanel.tsx",
-                                    lineNumber: 103,
+                                    lineNumber: 107,
                                     columnNumber: 29
                                 }, this)
                             }, value, false, {
                                 fileName: "[project]/components/EditorPanel.tsx",
-                                lineNumber: 97,
+                                lineNumber: 101,
                                 columnNumber: 25
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/EditorPanel.tsx",
-                        lineNumber: 95,
+                        lineNumber: 99,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/EditorPanel.tsx",
-                lineNumber: 93,
+                lineNumber: 97,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1377,7 +1412,7 @@ function EditorPanel() {
                         children: "Column Placement"
                     }, void 0, false, {
                         fileName: "[project]/components/EditorPanel.tsx",
-                        lineNumber: 110,
+                        lineNumber: 114,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Select"], {
@@ -1389,24 +1424,27 @@ function EditorPanel() {
                         options: sectionColumns
                     }, void 0, false, {
                         fileName: "[project]/components/EditorPanel.tsx",
-                        lineNumber: 111,
+                        lineNumber: 115,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/EditorPanel.tsx",
-                lineNumber: 109,
+                lineNumber: 113,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/EditorPanel.tsx",
-        lineNumber: 47,
+        lineNumber: 51,
         columnNumber: 9
     }, this);
 }
-_s(EditorPanel, "MPwpTe6qwmYgshvUnCxgptOhXEE=", false, function() {
+_s(EditorPanel, "1QO0oEeGBoaGB7Fr9kCgJcub3hY=", false, function() {
     return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"],
+        __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"],
+        __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"],
         __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"]
     ];
 });
@@ -1550,13 +1588,15 @@ var _s = __turbopack_context__.k.signature();
 ;
 function TemplateSwitcher() {
     _s();
-    const { activeTemplate, setTemplate, updateTheme } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
-        "TemplateSwitcher.useResumeStore": (state)=>({
-                activeTemplate: state.activeTemplate,
-                setTemplate: state.setTemplate,
-                updateTheme: state.updateTheme
-            })
-    }["TemplateSwitcher.useResumeStore"]);
+    const activeTemplate = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
+        "TemplateSwitcher.useResumeStore[activeTemplate]": (state)=>state.activeTemplate
+    }["TemplateSwitcher.useResumeStore[activeTemplate]"]);
+    const setTemplate = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
+        "TemplateSwitcher.useResumeStore[setTemplate]": (state)=>state.setTemplate
+    }["TemplateSwitcher.useResumeStore[setTemplate]"]);
+    const updateTheme = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
+        "TemplateSwitcher.useResumeStore[updateTheme]": (state)=>state.updateTheme
+    }["TemplateSwitcher.useResumeStore[updateTheme]"]);
     const handleSelect = (templateId)=>{
         const template = __TURBOPACK__imported__module__$5b$project$5d2f$utils$2f$templates$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["templates"].find((item)=>item.id === templateId);
         if (!template) {
@@ -1579,7 +1619,7 @@ function TemplateSwitcher() {
                                 children: template.name
                             }, void 0, false, {
                                 fileName: "[project]/components/TemplateSwitcher.tsx",
-                                lineNumber: 34,
+                                lineNumber: 32,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1587,13 +1627,13 @@ function TemplateSwitcher() {
                                 children: template.description
                             }, void 0, false, {
                                 fileName: "[project]/components/TemplateSwitcher.tsx",
-                                lineNumber: 35,
+                                lineNumber: 33,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/TemplateSwitcher.tsx",
-                        lineNumber: 33,
+                        lineNumber: 31,
                         columnNumber: 21
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1606,7 +1646,7 @@ function TemplateSwitcher() {
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/components/TemplateSwitcher.tsx",
-                                lineNumber: 45,
+                                lineNumber: 43,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1616,7 +1656,7 @@ function TemplateSwitcher() {
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/components/TemplateSwitcher.tsx",
-                                lineNumber: 46,
+                                lineNumber: 44,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1626,29 +1666,31 @@ function TemplateSwitcher() {
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/components/TemplateSwitcher.tsx",
-                                lineNumber: 47,
+                                lineNumber: 45,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/TemplateSwitcher.tsx",
-                        lineNumber: 44,
+                        lineNumber: 42,
                         columnNumber: 21
                     }, this)
                 ]
             }, template.id, true, {
                 fileName: "[project]/components/TemplateSwitcher.tsx",
-                lineNumber: 27,
+                lineNumber: 25,
                 columnNumber: 17
             }, this))
     }, void 0, false, {
         fileName: "[project]/components/TemplateSwitcher.tsx",
-        lineNumber: 25,
+        lineNumber: 23,
         columnNumber: 9
     }, this);
 }
-_s(TemplateSwitcher, "dNVmbz8nDDBJLip3mtmE9yutyWo=", false, function() {
+_s(TemplateSwitcher, "uoB1Dde9VhGka+vKreDNFjvri+c=", false, function() {
     return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"],
+        __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"],
         __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"]
     ];
 });
@@ -1742,12 +1784,12 @@ const tabs = [
 function Sidebar() {
     _s();
     const [activeTab, setActiveTab] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('theme');
-    const { theme, updateTheme } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
-        "Sidebar.useResumeStore": (state)=>({
-                theme: state.theme,
-                updateTheme: state.updateTheme
-            })
-    }["Sidebar.useResumeStore"]);
+    const theme = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
+        "Sidebar.useResumeStore[theme]": (state)=>state.theme
+    }["Sidebar.useResumeStore[theme]"]);
+    const updateTheme = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
+        "Sidebar.useResumeStore[updateTheme]": (state)=>state.updateTheme
+    }["Sidebar.useResumeStore[updateTheme]"]);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "w-96 border-l border-gray-100 bg-white/90 backdrop-blur-xl",
         children: [
@@ -1763,19 +1805,19 @@ function Sidebar() {
                                 className: "mr-2 h-4 w-4"
                             }, void 0, false, {
                                 fileName: "[project]/components/Sidebar.tsx",
-                                lineNumber: 52,
+                                lineNumber: 50,
                                 columnNumber: 25
                             }, this),
                             label
                         ]
                     }, id, true, {
                         fileName: "[project]/components/Sidebar.tsx",
-                        lineNumber: 45,
+                        lineNumber: 43,
                         columnNumber: 21
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/components/Sidebar.tsx",
-                lineNumber: 43,
+                lineNumber: 41,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1786,12 +1828,12 @@ function Sidebar() {
                         updateTheme: updateTheme
                     }, void 0, false, {
                         fileName: "[project]/components/Sidebar.tsx",
-                        lineNumber: 59,
+                        lineNumber: 57,
                         columnNumber: 43
                     }, this),
                     activeTab === 'templates' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$TemplateSwitcher$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/components/Sidebar.tsx",
-                        lineNumber: 60,
+                        lineNumber: 58,
                         columnNumber: 47
                     }, this),
                     activeTab === 'typography' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(TypographyControls, {
@@ -1799,7 +1841,7 @@ function Sidebar() {
                         updateTheme: updateTheme
                     }, void 0, false, {
                         fileName: "[project]/components/Sidebar.tsx",
-                        lineNumber: 61,
+                        lineNumber: 59,
                         columnNumber: 48
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1810,35 +1852,36 @@ function Sidebar() {
                                 children: "Section Editor"
                             }, void 0, false, {
                                 fileName: "[project]/components/Sidebar.tsx",
-                                lineNumber: 64,
+                                lineNumber: 62,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$EditorPanel$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                 fileName: "[project]/components/Sidebar.tsx",
-                                lineNumber: 65,
+                                lineNumber: 63,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Sidebar.tsx",
-                        lineNumber: 63,
+                        lineNumber: 61,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Sidebar.tsx",
-                lineNumber: 58,
+                lineNumber: 56,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/Sidebar.tsx",
-        lineNumber: 42,
+        lineNumber: 40,
         columnNumber: 9
     }, this);
 }
-_s(Sidebar, "bs0gZ/HgHfEL9DDwDWQhkadLYjw=", false, function() {
+_s(Sidebar, "nTR6BcWYXFlQRcnQ2XcSN7Q1wYM=", false, function() {
     return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"],
         __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"]
     ];
 });
@@ -1854,7 +1897,7 @@ const ThemeControls = ({ theme, updateTheme })=>/*#__PURE__*/ (0, __TURBOPACK__i
                     })
             }, void 0, false, {
                 fileName: "[project]/components/Sidebar.tsx",
-                lineNumber: 80,
+                lineNumber: 78,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ColorControl, {
@@ -1865,7 +1908,7 @@ const ThemeControls = ({ theme, updateTheme })=>/*#__PURE__*/ (0, __TURBOPACK__i
                     })
             }, void 0, false, {
                 fileName: "[project]/components/Sidebar.tsx",
-                lineNumber: 85,
+                lineNumber: 83,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ColorControl, {
@@ -1876,7 +1919,7 @@ const ThemeControls = ({ theme, updateTheme })=>/*#__PURE__*/ (0, __TURBOPACK__i
                     })
             }, void 0, false, {
                 fileName: "[project]/components/Sidebar.tsx",
-                lineNumber: 86,
+                lineNumber: 84,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1885,7 +1928,7 @@ const ThemeControls = ({ theme, updateTheme })=>/*#__PURE__*/ (0, __TURBOPACK__i
                         children: "Border Radius"
                     }, void 0, false, {
                         fileName: "[project]/components/Sidebar.tsx",
-                        lineNumber: 92,
+                        lineNumber: 90,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$slider$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Slider"], {
@@ -1898,13 +1941,13 @@ const ThemeControls = ({ theme, updateTheme })=>/*#__PURE__*/ (0, __TURBOPACK__i
                             })
                     }, void 0, false, {
                         fileName: "[project]/components/Sidebar.tsx",
-                        lineNumber: 93,
+                        lineNumber: 91,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Sidebar.tsx",
-                lineNumber: 91,
+                lineNumber: 89,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1913,7 +1956,7 @@ const ThemeControls = ({ theme, updateTheme })=>/*#__PURE__*/ (0, __TURBOPACK__i
                         children: "Section Padding"
                     }, void 0, false, {
                         fileName: "[project]/components/Sidebar.tsx",
-                        lineNumber: 102,
+                        lineNumber: 100,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$slider$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Slider"], {
@@ -1926,13 +1969,13 @@ const ThemeControls = ({ theme, updateTheme })=>/*#__PURE__*/ (0, __TURBOPACK__i
                             })
                     }, void 0, false, {
                         fileName: "[project]/components/Sidebar.tsx",
-                        lineNumber: 103,
+                        lineNumber: 101,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Sidebar.tsx",
-                lineNumber: 101,
+                lineNumber: 99,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1941,7 +1984,7 @@ const ThemeControls = ({ theme, updateTheme })=>/*#__PURE__*/ (0, __TURBOPACK__i
                         children: "Section Spacing"
                     }, void 0, false, {
                         fileName: "[project]/components/Sidebar.tsx",
-                        lineNumber: 112,
+                        lineNumber: 110,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$slider$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Slider"], {
@@ -1954,19 +1997,19 @@ const ThemeControls = ({ theme, updateTheme })=>/*#__PURE__*/ (0, __TURBOPACK__i
                             })
                     }, void 0, false, {
                         fileName: "[project]/components/Sidebar.tsx",
-                        lineNumber: 113,
+                        lineNumber: 111,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Sidebar.tsx",
-                lineNumber: 111,
+                lineNumber: 109,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/components/Sidebar.tsx",
-        lineNumber: 79,
+        lineNumber: 77,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 _c1 = ThemeControls;
@@ -1979,7 +2022,7 @@ const TypographyControls = ({ theme, updateTheme })=>/*#__PURE__*/ (0, __TURBOPA
                         children: "Font Family"
                     }, void 0, false, {
                         fileName: "[project]/components/Sidebar.tsx",
-                        lineNumber: 133,
+                        lineNumber: 131,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Select"], {
@@ -1991,13 +2034,13 @@ const TypographyControls = ({ theme, updateTheme })=>/*#__PURE__*/ (0, __TURBOPA
                         options: fontOptions
                     }, void 0, false, {
                         fileName: "[project]/components/Sidebar.tsx",
-                        lineNumber: 134,
+                        lineNumber: 132,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Sidebar.tsx",
-                lineNumber: 132,
+                lineNumber: 130,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2006,7 +2049,7 @@ const TypographyControls = ({ theme, updateTheme })=>/*#__PURE__*/ (0, __TURBOPA
                         children: "Heading Size"
                     }, void 0, false, {
                         fileName: "[project]/components/Sidebar.tsx",
-                        lineNumber: 142,
+                        lineNumber: 140,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$slider$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Slider"], {
@@ -2019,13 +2062,13 @@ const TypographyControls = ({ theme, updateTheme })=>/*#__PURE__*/ (0, __TURBOPA
                             })
                     }, void 0, false, {
                         fileName: "[project]/components/Sidebar.tsx",
-                        lineNumber: 143,
+                        lineNumber: 141,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Sidebar.tsx",
-                lineNumber: 141,
+                lineNumber: 139,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2034,7 +2077,7 @@ const TypographyControls = ({ theme, updateTheme })=>/*#__PURE__*/ (0, __TURBOPA
                         children: "Body Size"
                     }, void 0, false, {
                         fileName: "[project]/components/Sidebar.tsx",
-                        lineNumber: 152,
+                        lineNumber: 150,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$slider$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Slider"], {
@@ -2047,13 +2090,13 @@ const TypographyControls = ({ theme, updateTheme })=>/*#__PURE__*/ (0, __TURBOPA
                             })
                     }, void 0, false, {
                         fileName: "[project]/components/Sidebar.tsx",
-                        lineNumber: 153,
+                        lineNumber: 151,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Sidebar.tsx",
-                lineNumber: 151,
+                lineNumber: 149,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2062,7 +2105,7 @@ const TypographyControls = ({ theme, updateTheme })=>/*#__PURE__*/ (0, __TURBOPA
                         children: "Body Line Height"
                     }, void 0, false, {
                         fileName: "[project]/components/Sidebar.tsx",
-                        lineNumber: 162,
+                        lineNumber: 160,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$slider$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Slider"], {
@@ -2076,13 +2119,13 @@ const TypographyControls = ({ theme, updateTheme })=>/*#__PURE__*/ (0, __TURBOPA
                             })
                     }, void 0, false, {
                         fileName: "[project]/components/Sidebar.tsx",
-                        lineNumber: 163,
+                        lineNumber: 161,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Sidebar.tsx",
-                lineNumber: 161,
+                lineNumber: 159,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2093,7 +2136,7 @@ const TypographyControls = ({ theme, updateTheme })=>/*#__PURE__*/ (0, __TURBOPA
                         children: "Preview"
                     }, void 0, false, {
                         fileName: "[project]/components/Sidebar.tsx",
-                        lineNumber: 173,
+                        lineNumber: 171,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2104,19 +2147,19 @@ const TypographyControls = ({ theme, updateTheme })=>/*#__PURE__*/ (0, __TURBOPA
                         children: "The quick brown fox jumps over the lazy dog."
                     }, void 0, false, {
                         fileName: "[project]/components/Sidebar.tsx",
-                        lineNumber: 174,
+                        lineNumber: 172,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Sidebar.tsx",
-                lineNumber: 172,
+                lineNumber: 170,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/components/Sidebar.tsx",
-        lineNumber: 131,
+        lineNumber: 129,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 _c2 = TypographyControls;
@@ -2126,7 +2169,7 @@ const ColorControl = ({ label, value, onChange })=>/*#__PURE__*/ (0, __TURBOPACK
                 children: label
             }, void 0, false, {
                 fileName: "[project]/components/Sidebar.tsx",
-                lineNumber: 191,
+                lineNumber: 189,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2139,7 +2182,7 @@ const ColorControl = ({ label, value, onChange })=>/*#__PURE__*/ (0, __TURBOPACK
                         className: "h-11 w-11 cursor-pointer rounded-lg border border-gray-200"
                     }, void 0, false, {
                         fileName: "[project]/components/Sidebar.tsx",
-                        lineNumber: 193,
+                        lineNumber: 191,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Input"], {
@@ -2148,19 +2191,19 @@ const ColorControl = ({ label, value, onChange })=>/*#__PURE__*/ (0, __TURBOPACK
                         className: "flex-1"
                     }, void 0, false, {
                         fileName: "[project]/components/Sidebar.tsx",
-                        lineNumber: 199,
+                        lineNumber: 197,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Sidebar.tsx",
-                lineNumber: 192,
+                lineNumber: 190,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/components/Sidebar.tsx",
-        lineNumber: 190,
+        lineNumber: 188,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 _c3 = ColorControl;
@@ -2194,15 +2237,36 @@ var _s = __turbopack_context__.k.signature();
 ;
 function PdfExportButton() {
     _s();
-    const snapshot = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
-        "PdfExportButton.useResumeStore[snapshot]": (state)=>({
-                layout: state.layout,
-                theme: state.theme,
-                sections: state.sections,
-                activeTemplate: state.activeTemplate,
-                selectedSection: state.selectedSection
+    const layout = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
+        "PdfExportButton.useResumeStore[layout]": (state)=>state.layout
+    }["PdfExportButton.useResumeStore[layout]"]);
+    const theme = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
+        "PdfExportButton.useResumeStore[theme]": (state)=>state.theme
+    }["PdfExportButton.useResumeStore[theme]"]);
+    const sections = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
+        "PdfExportButton.useResumeStore[sections]": (state)=>state.sections
+    }["PdfExportButton.useResumeStore[sections]"]);
+    const activeTemplate = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
+        "PdfExportButton.useResumeStore[activeTemplate]": (state)=>state.activeTemplate
+    }["PdfExportButton.useResumeStore[activeTemplate]"]);
+    const selectedSection = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
+        "PdfExportButton.useResumeStore[selectedSection]": (state)=>state.selectedSection
+    }["PdfExportButton.useResumeStore[selectedSection]"]);
+    const snapshot = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMemo"])({
+        "PdfExportButton.useMemo[snapshot]": ()=>({
+                layout,
+                theme,
+                sections,
+                activeTemplate,
+                selectedSection
             })
-    }["PdfExportButton.useResumeStore[snapshot]"]);
+    }["PdfExportButton.useMemo[snapshot]"], [
+        layout,
+        theme,
+        sections,
+        activeTemplate,
+        selectedSection
+    ]);
     const [status, setStatus] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('idle');
     const handleExport = async ()=>{
         setStatus('loading');
@@ -2241,19 +2305,23 @@ function PdfExportButton() {
                 className: "h-4 w-4"
             }, void 0, false, {
                 fileName: "[project]/components/PdfExportButton.tsx",
-                lineNumber: 50,
+                lineNumber: 59,
                 columnNumber: 13
             }, this),
             status === 'error' ? 'Retry Export' : 'Export PDF'
         ]
     }, void 0, true, {
         fileName: "[project]/components/PdfExportButton.tsx",
-        lineNumber: 49,
+        lineNumber: 58,
         columnNumber: 9
     }, this);
 }
-_s(PdfExportButton, "QVz7IkoYAzo0pZpGRYPp/QihUfU=", false, function() {
+_s(PdfExportButton, "5XrxsN/LgdIxjc8i0QorNMor7zg=", false, function() {
     return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"],
+        __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"],
+        __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"],
+        __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"],
         __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"]
     ];
 });
@@ -2304,16 +2372,24 @@ const layouts = [
 ];
 function Toolbar() {
     _s();
-    const { layout, setLayout, resetResume, addSection, sections, setSelectedSection } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
-        "Toolbar.useResumeStore": (state)=>({
-                layout: state.layout,
-                setLayout: state.setLayout,
-                resetResume: state.resetResume,
-                addSection: state.addSection,
-                sections: state.sections,
-                setSelectedSection: state.setSelectedSection
-            })
-    }["Toolbar.useResumeStore"]);
+    const layout = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
+        "Toolbar.useResumeStore[layout]": (state)=>state.layout
+    }["Toolbar.useResumeStore[layout]"]);
+    const setLayout = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
+        "Toolbar.useResumeStore[setLayout]": (state)=>state.setLayout
+    }["Toolbar.useResumeStore[setLayout]"]);
+    const resetResume = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
+        "Toolbar.useResumeStore[resetResume]": (state)=>state.resetResume
+    }["Toolbar.useResumeStore[resetResume]"]);
+    const addSection = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
+        "Toolbar.useResumeStore[addSection]": (state)=>state.addSection
+    }["Toolbar.useResumeStore[addSection]"]);
+    const sections = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
+        "Toolbar.useResumeStore[sections]": (state)=>state.sections
+    }["Toolbar.useResumeStore[sections]"]);
+    const setSelectedSection = (0, __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"])({
+        "Toolbar.useResumeStore[setSelectedSection]": (state)=>state.setSelectedSection
+    }["Toolbar.useResumeStore[setSelectedSection]"]);
     const handleAddSection = ()=>{
         const targetColumn = layout === 'one-column' ? 'main' : layout === 'two-column' ? 'main' : 'right';
         const newSection = {
@@ -2343,7 +2419,7 @@ function Toolbar() {
                                     children: "Modern Resume Canvas"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Toolbar.tsx",
-                                    lineNumber: 45,
+                                    lineNumber: 43,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2351,20 +2427,20 @@ function Toolbar() {
                                     children: "Design, customize, and export in seconds"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Toolbar.tsx",
-                                    lineNumber: 46,
+                                    lineNumber: 44,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Toolbar.tsx",
-                            lineNumber: 44,
+                            lineNumber: 42,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "hidden h-10 w-px bg-gray-200 md:block"
                         }, void 0, false, {
                             fileName: "[project]/components/Toolbar.tsx",
-                            lineNumber: 48,
+                            lineNumber: 46,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2374,7 +2450,7 @@ function Toolbar() {
                                     className: "h-4 w-4 text-gray-500"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Toolbar.tsx",
-                                    lineNumber: 50,
+                                    lineNumber: 48,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2382,7 +2458,7 @@ function Toolbar() {
                                     children: "Layout"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Toolbar.tsx",
-                                    lineNumber: 51,
+                                    lineNumber: 49,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2394,24 +2470,24 @@ function Toolbar() {
                                             children: label
                                         }, value, false, {
                                             fileName: "[project]/components/Toolbar.tsx",
-                                            lineNumber: 54,
+                                            lineNumber: 52,
                                             columnNumber: 33
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/Toolbar.tsx",
-                                    lineNumber: 52,
+                                    lineNumber: 50,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Toolbar.tsx",
-                            lineNumber: 49,
+                            lineNumber: 47,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Toolbar.tsx",
-                    lineNumber: 43,
+                    lineNumber: 41,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2426,14 +2502,14 @@ function Toolbar() {
                                     className: "h-4 w-4"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Toolbar.tsx",
-                                    lineNumber: 69,
+                                    lineNumber: 67,
                                     columnNumber: 25
                                 }, this),
                                 "Add Section"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Toolbar.tsx",
-                            lineNumber: 68,
+                            lineNumber: 66,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -2445,41 +2521,46 @@ function Toolbar() {
                                     className: "h-4 w-4"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Toolbar.tsx",
-                                    lineNumber: 73,
+                                    lineNumber: 71,
                                     columnNumber: 25
                                 }, this),
                                 "Reset"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Toolbar.tsx",
-                            lineNumber: 72,
+                            lineNumber: 70,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$4_$40$babel$2b$core$40$7$2e$2_c7b1faf0a552f6db76217c833dfd7538$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PdfExportButton$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                             fileName: "[project]/components/Toolbar.tsx",
-                            lineNumber: 76,
+                            lineNumber: 74,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Toolbar.tsx",
-                    lineNumber: 67,
+                    lineNumber: 65,
                     columnNumber: 17
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/Toolbar.tsx",
-            lineNumber: 42,
+            lineNumber: 40,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/Toolbar.tsx",
-        lineNumber: 41,
+        lineNumber: 39,
         columnNumber: 9
     }, this);
 }
-_s(Toolbar, "le/Gwb90udGJzn6ZthbYYdjbMDg=", false, function() {
+_s(Toolbar, "UElSRt3ytaFeoJtb6d8iQJ/SDtg=", false, function() {
     return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"],
+        __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"],
+        __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"],
+        __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"],
+        __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"],
         __TURBOPACK__imported__module__$5b$project$5d2f$store$2f$resumeStore$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useResumeStore"]
     ];
 });

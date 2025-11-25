@@ -49,13 +49,11 @@ const rebuildSections = (columns: { left: Section[]; main: Section[]; right: Sec
 };
 
 export default function Canvas() {
-    const { layout, theme, sections, activeTemplate, reorderSections } = useResumeStore((state) => ({
-        layout: state.layout,
-        theme: state.theme,
-        sections: state.sections,
-        activeTemplate: state.activeTemplate,
-        reorderSections: state.reorderSections,
-    }));
+    const layout = useResumeStore((state) => state.layout);
+    const theme = useResumeStore((state) => state.theme);
+    const sections = useResumeStore((state) => state.sections);
+    const activeTemplate = useResumeStore((state) => state.activeTemplate);
+    const reorderSections = useResumeStore((state) => state.reorderSections);
 
     const columns = getColumnsFromSections(sections);
     const effectiveColumns =

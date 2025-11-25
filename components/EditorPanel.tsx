@@ -1,6 +1,7 @@
 'use client';
 
 import { AlignCenter, AlignJustify, AlignLeft, AlignRight } from 'lucide-react';
+import { useMemo } from 'react';
 
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -26,12 +27,15 @@ const sectionColumns = [
 const textEditableTypes: Section['type'][] = ['about', 'contact', 'custom'];
 
 export default function EditorPanel() {
-    const { selectedSectionId, section, updateSection, updateSectionStyle } = useResumeStore((state) => ({
-        selectedSectionId: state.selectedSection,
-        section: state.sections.find((item) => item.id === state.selectedSection),
-        updateSection: state.updateSection,
-        updateSectionStyle: state.updateSectionStyle,
-    }));
+    const selectedSectionId = useResumeStore((state) => state.selectedSection);
+    const sections = useResumeStore((state) => state.sections);
+    const updateSection = useResumeStore((state) => state.updateSection);
+    const updateSectionStyle = useResumeStore((state) => state.updateSectionStyle);
+    
+    const section = useMemo(
+        () => sections.find((item) => item.id === selectedSectionId),
+        [sections, selectedSectionId]
+    );
 
     if (!selectedSectionId || !section) {
         return (

@@ -13,14 +13,12 @@ const layouts: Array<{ id: Section['column']; label: string; value: 'one-column'
 ];
 
 export default function Toolbar() {
-    const { layout, setLayout, resetResume, addSection, sections, setSelectedSection } = useResumeStore((state) => ({
-        layout: state.layout,
-        setLayout: state.setLayout,
-        resetResume: state.resetResume,
-        addSection: state.addSection,
-        sections: state.sections,
-        setSelectedSection: state.setSelectedSection,
-    }));
+    const layout = useResumeStore((state) => state.layout);
+    const setLayout = useResumeStore((state) => state.setLayout);
+    const resetResume = useResumeStore((state) => state.resetResume);
+    const addSection = useResumeStore((state) => state.addSection);
+    const sections = useResumeStore((state) => state.sections);
+    const setSelectedSection = useResumeStore((state) => state.setSelectedSection);
 
     const handleAddSection = () => {
         const targetColumn = layout === 'one-column' ? 'main' : layout === 'two-column' ? 'main' : 'right';

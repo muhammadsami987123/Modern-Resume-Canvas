@@ -19,15 +19,11 @@ interface SectionCardProps {
 }
 
 export default function SectionCard({ section, dragHandleProps }: SectionCardProps) {
-    const { theme, updateSection, deleteSection, setSelectedSection, selectedSection } = useResumeStore(
-        (state) => ({
-            theme: state.theme,
-            updateSection: state.updateSection,
-            deleteSection: state.deleteSection,
-            setSelectedSection: state.setSelectedSection,
-            selectedSection: state.selectedSection,
-        })
-    );
+    const theme = useResumeStore((state) => state.theme);
+    const updateSection = useResumeStore((state) => state.updateSection);
+    const deleteSection = useResumeStore((state) => state.deleteSection);
+    const setSelectedSection = useResumeStore((state) => state.setSelectedSection);
+    const selectedSection = useResumeStore((state) => state.selectedSection);
 
     const [isEditingTitle, setIsEditingTitle] = useState(false);
     const [editedTitle, setEditedTitle] = useState(section.title);

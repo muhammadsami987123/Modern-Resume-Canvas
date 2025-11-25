@@ -1,19 +1,28 @@
 'use client';
 
 import { Download } from 'lucide-react';
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 
 import { Button } from '@/components/ui/button';
 import { ResumeState, useResumeStore } from '@/store/resumeStore';
 
 export default function PdfExportButton() {
-    const snapshot = useResumeStore((state) => ({
-        layout: state.layout,
-        theme: state.theme,
-        sections: state.sections,
-        activeTemplate: state.activeTemplate,
-        selectedSection: state.selectedSection,
-    }));
+    const layout = useResumeStore((state) => state.layout);
+    const theme = useResumeStore((state) => state.theme);
+    const sections = useResumeStore((state) => state.sections);
+    const activeTemplate = useResumeStore((state) => state.activeTemplate);
+    const selectedSection = useResumeStore((state) => state.selectedSection);
+    
+    const snapshot = useMemo<ResumeState>(
+        () => ({
+            layout,
+            theme,
+            sections,
+            activeTemplate,
+            selectedSection,
+        }),
+        [layout, theme, sections, activeTemplate, selectedSection]
+    );
     const [status, setStatus] = useState<'idle' | 'loading' | 'error'>('idle');
 
     const handleExport = async () => {

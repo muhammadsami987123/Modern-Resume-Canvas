@@ -33,10 +33,8 @@ const tabs: Array<{ id: Tab; label: string; icon: React.ElementType }> = [
 
 export default function Sidebar() {
     const [activeTab, setActiveTab] = useState<Tab>('theme');
-    const { theme, updateTheme } = useResumeStore((state) => ({
-        theme: state.theme,
-        updateTheme: state.updateTheme,
-    }));
+    const theme = useResumeStore((state) => state.theme);
+    const updateTheme = useResumeStore((state) => state.updateTheme);
 
     return (
         <div className="w-96 border-l border-gray-100 bg-white/90 backdrop-blur-xl">
