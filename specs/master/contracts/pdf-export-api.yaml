@@ -1,0 +1,140 @@
+openapi: 3.0.0
+info:
+  title: Resume PDF Export API
+  version: 1.0.0
+  description: API for generating a resume PDF from structured data.
+servers:
+  - url: /api
+paths:
+  /export:
+    post:
+      summary: Export Resume as PDF
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Resume'
+      responses:
+        '200':
+          description: Successfully generated and returned the resume PDF.
+          content:
+            application/pdf:
+              schema:
+                type: string
+                format: binary
+        '400':
+          description: Invalid request body or resume data.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+        '500':
+          description: Internal server error during PDF generation.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+components:
+  schemas:
+    Resume:
+      type: object
+      properties:
+        layout:
+          type: string
+          enum: ["one-column", "two-column", "three-column-narrow-sidebar-main"]
+          description: The layout of the resume.
+        theme:
+          $ref: '#/components/schemas/Theme'
+        sections:
+          type: array
+          items:
+            $ref: '#/components/schemas/Section'
+      required:
+        - layout
+        - theme
+        - sections
+    Theme:
+      type: object
+      properties:
+        accent:
+          type: string
+          pattern: "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$"
+          description: Hex color code for accent.
+        text:
+          type: string
+          pattern: "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$"
+          description: Hex color code for text.
+        background:
+          type: string
+          pattern: "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$"
+          description: Hex color code for background.
+        font:
+          type: string
+          description: Font family name.
+        radius:
+          type: string
+          description: CSS border-radius value (e.g., "10px").
+      required:
+        - accent
+        - text
+        - background
+        - font
+        - radius
+    Section:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Unique identifier for the section.
+        type:
+          type: string
+          enum: ["about", "experience", "projects", "skills", "education", "certifications", "contact"]
+          description: The type of resume section.
+        title:
+          type: string
+        content:
+          type: string
+          description: Content for simple text sections.
+        items:
+          type: array
+          items:
+            type: object # Placeholder for various item types
+          description: Array of item objects for list-based sections.
+        column:
+          type: string
+          enum: ["left", "right", "main", "sidebar"]
+          description: Column for multi-column layouts.
+        order:
+          type: integer
+          minimum: 0
+          description: Order for sorting sections.
+      required:
+        - id
+        - type
+        - title
+        - column
+        - order
+    # Example item schema (can be expanded for different section types)
+    ExperienceItem:
+      type: object
+      properties:
+        role:
+          type: string
+        company:
+          type: string
+        time:
+          type: string
+        description:
+          type: string
+      required:
+        - role
+        - company
+        - time
+        - description
